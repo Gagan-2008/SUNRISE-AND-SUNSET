@@ -50,7 +50,7 @@ var datetime;
 
 
     // write code to fetch time from API
-    response =await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
+    response =await fetch("https://worldtimeapi.org/api/timezone/Asia/Kolkata");
   
     //change the data in JSON format
     responseJSON= await response.json();
